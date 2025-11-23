@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyd
+*.dll
+*.zip
+*.tar
+*.pt
+*.mp4
+*.png
+*.jpg
+runs/
