@@ -3,8 +3,6 @@
 This project uses a custom-trained **YOLOv8** object detection model to detect underwater fish species.
 The model is trained on a dataset from **Roboflow** and fine-tuned using the **Ultralytics YOLOv8 framework**.
 
----
-
 ## Training the Model
 
 Run the following command to start training:
@@ -18,8 +16,6 @@ The trained model will be saved in:
 ```
 runs/detect/train/weights/best.pt
 ```
-
----
 
 ## Running Predictions
 
@@ -36,15 +32,11 @@ python predict_any.py
 runs/detect/predict2/
 ```
 
----
-
 ## Model Used
 
 * **Model:** YOLOv8n (pretrained on COCO, fine-tuned on custom dataset)
 * **Framework:** Ultralytics YOLOv8
 * **Augmentation:** Handled internally by YOLO
-
----
 
 ## Requirements
 
