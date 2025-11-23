@@ -4,7 +4,7 @@ Underwater Fish Detection using YOLOv8
 This project uses a custom-trained YOLOv8 object detection model to detect underwater fish species.
 The model is trained on a dataset from Roboflow and fine-tuned using the Ultralytics YOLOv8 framework.
 
-Training the Model
+#Training the Model
 
 Run:
 
@@ -15,7 +15,7 @@ The trained model will be saved in:
 
 runs/detect/train/weights/best.pt
 
-Running Predictions
+#Running Predictions
 
 Run:
 
